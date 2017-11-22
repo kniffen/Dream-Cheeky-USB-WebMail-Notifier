@@ -2,7 +2,7 @@
 
 ![Product promo](https://i.imgur.com/5Vropmk.jpg)
 
-<img src="https://i.imgur.com/Ehwkm60.gif"/>
+
 
 ## Usage
 ```JS
@@ -20,4 +20,6 @@ usbwn.off()
 ```
 
 ## Demo
+[Demo GIF](https://i.imgur.com/Ehwkm60.gifv)
+
 To run the demo type `node ./demo.js`
