@@ -1,0 +1,13 @@
+{
+  "name": "dream-cheeky-usb-webmail-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "usbwn.js",
+  "keywords": [],
+  "author": "Kniffen",
+  "license": "MIT",
+  "dependencies": {
+    "usb": "git+https://github.com/tessel/node-usb.git"
+  },
+  "devDependencies": {}
+}
