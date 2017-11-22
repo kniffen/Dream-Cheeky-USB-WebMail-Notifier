@@ -2,7 +2,7 @@
 
 ![Product promo](https://i.imgur.com/5Vropmk.jpg)
 
-![Demo Gif](https://i.imgur.com/Ehwkm60.gif)
+<img src="https://i.imgur.com/Ehwkm60.gif"/>
 
 ## Usage
 ```JS
