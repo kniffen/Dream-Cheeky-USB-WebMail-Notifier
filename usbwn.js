@@ -24,7 +24,7 @@ let webmailNotifier = usb.findByIds(vendorID, productID)
 if (webmailNotifier) initiate()
 
 function initiate() {
-  const buff = new Buffer(init)
+  const buff = Buffer.from(init)
 
   webmailNotifier.open()
   
@@ -40,7 +40,7 @@ function changeColor(arr) {
   if (!webmailNotifier) 
     return console.log('Device not connected')
 
-  const buff = new Buffer(arr.concat([0xFF,0xFF,0xFF,0x1F,0x05]))
+  const buff = Buffer.from(arr.concat([0xFF,0xFF,0xFF,0x1F,0x05]))
 
   webmailNotifier.controlTransfer(0x21, 0x9, 0x200, 0x0, buff, function(error, data){
     if (error) console.log(error)

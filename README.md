@@ -22,4 +22,4 @@ usbwn.off()
 ## Demo
 [Demo GIF](https://i.imgur.com/Ehwkm60.gifv)
 
-To run the demo type `node ./demo.js`
+To run the demo type `npm run demo`
